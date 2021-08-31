@@ -17,7 +17,7 @@ jobs:
         
           user: albinekb
           template: classic
-          base: activity, community, repositories, metadata
+          base: activity
           config_timezone: Europe/Stockholm
           config_twemoji: yes
           repositories: 500
@@ -33,13 +33,3 @@ jobs:
           plugin_languages_limit: 20
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
-          plugin_licenses: yes
-          plugin_licenses_legal: yes
-          plugin_licenses_ratio: yes
-          plugin_lines: yes
-          plugin_notable: yes
-          plugin_traffic: yes
-          plugin_topics: yes
-          plugin_topics_sort: stars    # Sort by most starred topics
-          plugin_topics_mode: mastered # Display icons instead of labels
-          plugin_topics_limit: 0       # Disable limitations
